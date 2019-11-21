@@ -1,6 +1,11 @@
+#!/usr/bin/python
+
 from setuptools import setup, find_packages
 from mylibrary import __version__
 
+# # ready for Python2 and 3
+# # > $ py -2 setup.py --version
+# # > $ py -3 setup.py --version
 # packages = find_packages(exclude=['tests'])
 #
 # ns = dict()
@@ -12,8 +17,7 @@ from mylibrary import __version__
 #             eval(compile(f.read(), version_file, 'exec'), dict(), ns)
 #             break
 #
-# __version__ = ns.get('__version__')
-# assert __version__
+# __version__ = ns['__version__']
 # del ns
 
 setup(
