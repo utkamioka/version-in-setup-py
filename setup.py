@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 from setuptools import setup, find_packages
-from mylibrary import __version__
+# from mylibrary import __version__
 
 # # ready for Python2 and 3
 # # > $ py -2 setup.py --version
@@ -21,5 +21,5 @@ from mylibrary import __version__
 # del ns
 
 setup(
-    version=__version__,
+    # version=__version__,
 )
